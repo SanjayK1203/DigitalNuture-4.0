@@ -1,13 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        SingletonPattern singleton1 = SingletonPattern.getInstance();
-        singleton1.showMessage("The First Object Created");
-        SingletonPattern singleton2 = SingletonPattern.getInstance();
-        singleton2.showMessage("The Second Object Created");
+        Logger logger1 = Logger.getInstance();
+        logger1.log("The First Logger Instance");
 
-        if(singleton1 == singleton2)
-            System.out.println("Both the instances are same");
+        Logger logger2 = Logger.getInstance();
+        logger2.log("The Second Logger Instance");
+
+        if (logger1 == logger2)
+            System.out.println("Both the logger instances are the same");
         else
-            System.out.println("The instances are different");
+            System.out.println("The logger instances are different");
     }
 }
