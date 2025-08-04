@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.section {
+  padding: 10px 30px;
+}
+
+.border-left {
+  border-left: 4px solid green;
+}
