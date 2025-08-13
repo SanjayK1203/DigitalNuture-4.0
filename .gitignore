@@ -1,9 +1,5 @@
 .DS_Store
 *.class
 .vscode
-Week-1/Design Patterns and Principles/EX-1 Implementing the SIngleton Pattern/.idea/
-Week-2/TDD using JUnit5 and Mockito/Ex-1 Setting up Junit/.idea/
-Week-2/TDD using JUnit5 and Mockito/Ex-1 Setting up Junit/demo/target/
-Week-2/TDD using JUnit5 and Mockito/Ex-2 Assertions in JUnit/.idea/
-Week-2/TDD using JUnit5 and Mockito/Ex-2 Assertions in JUnit/assertions/bin/
+
 
