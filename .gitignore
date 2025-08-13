@@ -1,3 +1,9 @@
 .DS_Store
 *.class
 .vscode
+# Ignore IDE project files
+**/.idea/
+
+# Ignore build folders
+**/target/
+**/bin/
